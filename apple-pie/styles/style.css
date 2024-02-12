@@ -1,24 +1,112 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
 html {
-  box-sizing: border-box;
-  font-size: 16px;
+	box-sizing: border-box;
+	font-size: 16px;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+	font-weight: lighter;
 }
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+	font-family: "Helvetica", sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.container {
+	margin: 10px;
+}
+
+.header {
+	background-image: url(../images/apple-pie.jpg);
+	height: 650px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	margin: 10px auto;
+}
+
+.header h1 {
+	font-size: 80px;
+	text-align: center;
+	margin: auto;
+	color: white;
+	align-items: center;
+}
+
+.container-info {
+	padding: 0 60px;
+}
+
+.information {
+	margin: 50px 0 10px 0;
+	text-align: center;
+}
+
+.introduction {
+	font-size: 14px;
+	text-align: justify;
+}
+
+.info-cooking {
+	height: 50px;
+	align-items: center;
+	margin: 20px 0 5px 0;
+}
+
+.title-ingredents {
+	font-size: 18px;
+	margin: 20px auto;
+	text-align: left;
+}
+
+.ingredients {
+	text-align: center;
+}
+
+.list {
+	padding-left: 30px;
+	font-size: 14px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.ingredients-cooking {
+	height: 60px;
+}
+
+.title-directions {
+	font-size: 18px;
+	margin: 20px auto;
+	text-align: left;
+}
+
+.title-directions p {
+	font-size: 14px;
+}
+
+.list-directions {
+	padding-right: 50px;
+	margin-bottom: 50px;
+}
